@@ -8,5 +8,8 @@ inside that environment do:
 
 pip install -r requirements.txt
 
-## To run a project use:
-python manage.py runserver
+## To run a project under root folder use:
+1. python manage.py makemigrations
+2. python manage.py migrate
+3. python manage.py createsuperuser
+4. python manage.py runserver
